@@ -12,7 +12,7 @@ let attempt = 1;
 
 while (parseInt(input) !== target) {
     if (input === 'q') {
-        break;
+        break; 
     }
     attempt++;
     if (input > target) {
